@@ -32,5 +32,5 @@ jobs:
       uses: okteto/notify-pr@master
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      with:
+     with:
         message: "Preview environment available at https://fastapi-pr-${{ github.event.number }}-namespace.cloud.okteto.net"
