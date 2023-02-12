@@ -1,3 +1,3 @@
 <?php
 
-echo "Prueba de okteto";
+echo "<h1>Prueba de okteto</h1>";
